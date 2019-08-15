@@ -1,9 +1,9 @@
-namespace RentMyWrox.Models
-{
+
     using System;
     using System.Data.Entity;
     using System.Linq;
-
+namespace RentMyWrox.Models
+{
     public class RentMyWroxContext : DbContext
     {
         // Your context has been configured to use a 'RentMyWroxContext' connection string from your application's 

@@ -6,6 +6,15 @@ using System.Web;
 
 namespace RentMyWrox.Models
 {
+    public class Hobby
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+        public virtual ICollection<UserDemographics> UserDemographics { get; set; }
+    }
+
     public class UserDemographics
     {
         public UserDemographics()
@@ -30,12 +39,7 @@ namespace RentMyWrox.Models
         public List<Hobby> Hobbies { get; set; }
     }
 
-    public class Hobby
-    {
-        [Key]
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public bool IsActive { get; set; }
-        public virtual ICollection<UserDemographics> UserDemographics { get; set; }
-    }
+
 }
+
+

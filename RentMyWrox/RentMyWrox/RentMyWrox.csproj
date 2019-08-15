@@ -199,6 +199,7 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\ItemList.aspx" />
+    <Content Include="Admin\ManageHobby.aspx" />
     <Content Include="Admin\ManageItem.aspx" />
     <Content Include="Admin\OrderList.aspx" />
     <Content Include="Admin\UserList.aspx" />
@@ -402,6 +403,13 @@
     </Compile>
     <Compile Include="Admin\ItemList.aspx.designer.cs">
       <DependentUpon>ItemList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageHobby.aspx.cs">
+      <DependentUpon>ManageHobby.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageHobby.aspx.designer.cs">
+      <DependentUpon>ManageHobby.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\ManageItem.aspx.cs">
       <DependentUpon>ManageItem.aspx</DependentUpon>
