@@ -12,7 +12,6 @@ namespace RentMyWrox.Controllers
         // GET: UserDemographics
         public ActionResult Index()
         {
-
             using (RentMyWroxContext context = new RentMyWroxContext())
             {
                 var list = context.UserDemographics.OrderBy(x => x.Birthdate).ToList();
