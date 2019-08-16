@@ -15,6 +15,7 @@ namespace RentMyWrox.Controllers
             using (RentMyWroxContext context = new RentMyWroxContext())
             {
                 var list = context.UserDemographics.OrderBy(x => x.Birthdate).ToList();
+                //Item hola = new Item();
                 return View(list);
             }
         }

@@ -1,7 +1,4 @@
-
-    using System;
-    using System.Data.Entity;
-    using System.Linq;
+using System.Data.Entity;
 namespace RentMyWrox.Models
 {
     public class RentMyWroxContext : DbContext
@@ -23,6 +20,7 @@ namespace RentMyWrox.Models
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
         public virtual DbSet<UserDemographics> UserDemographics { get; set; }
         public virtual DbSet<Hobby> Hobbies { get; set; }
+        public virtual DbSet<Item> Items { get; set; }
     }
 
     //public class MyEntity

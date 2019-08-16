@@ -252,6 +252,7 @@ C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\RentMyWrox.pdb
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Antlr3.Runtime.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\AspNet.ScriptManager.bootstrap.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\AspNet.ScriptManager.jQuery.dll
+C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\DocumentFormat.OpenXml.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\EntityFramework.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\EntityFramework.SqlServer.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Microsoft.AspNet.FriendlyUrls.dll
@@ -283,6 +284,7 @@ C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\System.Web.WebPag
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\System.Web.WebPages.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\System.Web.WebPages.Razor.dll
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\WebGrease.dll
+C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\DocumentFormat.OpenXml.xml
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\System.Web.Helpers.xml
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\System.Web.Mvc.xml
@@ -310,6 +312,8 @@ C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Microsoft.Owin.Se
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\bin\Microsoft.Owin.Security.OAuth.xml
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.csprojAssemblyReference.cache
+C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.Migrations.AddingItems.resources
+C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.csproj.GenerateResource.cache
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.csproj.CoreCompileInputs.cache
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.csproj.CopyComplete
 C:\VSRepositories\RentMyWrox_TEACHER\RentMyWrox\RentMyWrox\obj\Debug\RentMyWrox.dll

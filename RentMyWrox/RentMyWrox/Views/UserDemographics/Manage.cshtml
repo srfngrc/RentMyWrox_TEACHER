@@ -78,9 +78,7 @@
             <div class="col-md-10">
                 @foreach (string hobby in hobbyList)
                 {
-                    string checkedText = Model.Hobbies.Contains(hobby)
-                         ? "checked"
-                         : string.Empty;
+                    string checkedText = "checked";
                     <span>
                         <input name="hobbies" value="@hobby" type="checkbox" @checkedText />
                         @hobby
