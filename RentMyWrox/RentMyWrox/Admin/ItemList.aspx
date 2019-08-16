@@ -19,6 +19,7 @@
             <asp:CheckBoxField DataField="IsAvailable" HeaderText="Is Available" SortExpression="IsAvailable" />
         </Columns>
     </asp:GridView>
+
     <%--RentMyWroxConnectionString1--%>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:RentMyWroxContext %>" DeleteCommand="DELETE FROM [Items] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Items] ([Name], [Description], [ItemNumber], [Picture], [Cost], [CheckedOut], [DueBack], [DateAcquired], [IsAvailable]) VALUES (@Name, @Description, @ItemNumber, @Picture, @Cost, @CheckedOut, @DueBack, @DateAcquired, @IsAvailable)" ProviderName="<%$ ConnectionStrings:RentMyWroxContext.ProviderName %>" SelectCommand="SELECT [Id], [Name], [Description], [ItemNumber], [Picture], [Cost], [CheckedOut], [DueBack], [DateAcquired], [IsAvailable] FROM [Items]" UpdateCommand="UPDATE [Items] SET [Name] = @Name, [Description] = @Description, [ItemNumber] = @ItemNumber, [Picture] = @Picture, [Cost] = @Cost, [CheckedOut] = @CheckedOut, [DueBack] = @DueBack, [DateAcquired] = @DateAcquired, [IsAvailable] = @IsAvailable WHERE [Id] = @Id">
         <DeleteParameters>
