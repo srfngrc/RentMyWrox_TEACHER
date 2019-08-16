@@ -22,6 +22,7 @@ namespace RentMyWrox
                 url: "{controller}/{action}/{id}",
                 defaults: new { action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapMvcAttributeRoutes();
         }
     }
 }
